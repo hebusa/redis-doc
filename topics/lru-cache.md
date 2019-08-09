@@ -186,6 +186,6 @@ The counter *logarithm factor* changes how many hits are needed in order to satu
 +--------+------------+------------+------------+------------+------------+
 ```
 
-So basically the factor is a trade off between better distinguishing items with low accesses VS distinguishing items with high accesses. More informations are available in the example `redis.conf` file self documenting comments.
+So basically the factor is a trade off between better distinguishing items with low accesses VS distinguishing items with high accesses. More information is available in the example `redis.conf` file self documenting comments.
 
 Since LFU is a new feature, we'll appreciate any feedback about how it performs in your use case compared to LRU.
